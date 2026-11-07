@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Virtual Happy Diwali – Free Virtual Fireworks Online | Built by Engineer Pankaj Kumar</title>
+<meta name="description" content="Virtual Happy Diwali is a free online fireworks and crackers simulator. Tap the sky, write a Diwali wish and share it. Built by Engineer Pankaj Kumar.">
+<meta name="author" content="Engineer Pankaj Kumar">
+<meta name="copyright" content="Engineer Pankaj Kumar">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#01020a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Virtual Happy Diwali">
+<meta property="og:title" content="Virtual Happy Diwali – Free Virtual Fireworks Online">
+<meta property="og:description" content="Launch fireworks, light virtual crackers and send Diwali wishes. Built by Engineer Pankaj Kumar.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Virtual Happy Diwali – Free Virtual Fireworks Online">
+<meta name="twitter:description" content="Launch fireworks, light virtual crackers and send Diwali wishes. Built by Engineer Pankaj Kumar.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Virtual Happy Diwali","applicationCategory":"EntertainmentApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Engineer Pankaj Kumar"}}</script>
+</head>
+<body>
+<section class="sky" id="sky">
+<canvas id="c"></canvas>
+<div id="cd"></div>
+<div id="intro">
+<h1>Virtual Happy Diwali</h1>
+<p class="sub">A free virtual fireworks display in your browser. Tap the sky to launch your own shells, write a Diwali wish and share it with family. Turn your sound on.</p>
+<button class="big" id="start">▶ Start the show</button>
+<p class="warn">Contains flashing lights.</p>
+</div>
+<button class="fsb" id="fs">⛶ Full screen</button>
+<div id="panel">
+<button id="hide" style="border-radius:8px">▾ Hide controls</button>
+<div class="grid"><button id="bAuto">⏸ Auto show: on</button><button id="bFin">🎇 Finale</button><button id="bGrand">🎆 Grand show</button><button id="bGround">⛲ Ground fx</button><button id="bPhoto">📷 Save photo</button><button id="bCity">🏙 City in front: off</button><button id="bToday">📅 Today’s show</button><button id="bCount">⏱ Countdown</button></div>
+<div><div class="lab">Crackers</div><div class="grid"><button id="cAnar">🌸 Anar</button><button id="cChakri">🌀 Chakri</button><button id="cLadi">🧨 Ladi</button><button id="cBomb">💣 Bomb</button><button id="cPhul">✨ Phuljhadi</button></div></div>
+<div><div class="lab">Tap shell</div><select id="shell"></select></div>
+<div class="grid"><input type="text" id="msg" maxlength="28" placeholder="Type a wish, e.g. Happy Diwali"><button id="write">✍ Write in sky</button><button id="share">🔗 Share greeting</button></div>
+<div class="grid"><div><div class="lab">Theme</div><select id="theme"><option value="mix">Colourful mix</option><option value="gold">Diwali Gold</option><option value="rainbow">Rainbow</option><option value="tri">Tricolour</option><option value="royal">Royal Blue &amp; Pink</option><option value="pastel">Pastel</option></select></div><div><div class="lab">Launch</div><select id="launch"><option value="1">Normal</option><option value=".6">Fast</option><option value="1.6">Slow</option></select></div><div><div class="lab">Sound</div><select id="snd"><option value="1">Auto (realistic)</option><option value="1.5">Loud</option><option value=".5">Soft</option><option value="0">Mute</option></select></div></div>
+<div><div class="lab">Volume <span id="vl">80</span>%</div><input type="range" id="vol" min="0" max="100" value="80"></div>
+<div class="lab" style="text-transform:none">Tap the sky to launch your own shell · Shells fired: <span id="cnt">0</span></div>
+</div>
+<div id="bar"><button id="bCtl">⚙ Controls</button></div>
+<div class="credit">Built by <b>Engineer Pankaj Kumar</b></div>
+</section>
+<main class="mx-auto max-w-3xl px-5 py-8">
+<h2 class="mt-8 text-2xl font-bold text-gold">About Virtual Happy Diwali</h2>
+<p class="mt-2">Virtual Happy Diwali is a free, interactive fireworks simulator that runs in your browser on phones, tablets and computers. Each rocket climbs with a sparking tail, then bursts into sparks that slow down, cool from white-hot to colour to a dim ember, and fall under gravity. It is a safe, smoke-free way to celebrate the festival of lights with family far away.</p>
+<h2 class="mt-8 text-2xl font-bold text-gold">What you can do</h2>
+<ul class="mt-2 list-disc pl-6">
+<li>Tap the sky to launch shells, and choose from 15 shell types.</li>
+<li>Light virtual crackers: anar, chakri, ladi, atom bomb and phuljhadi.</li>
+<li>Watch the Grand show, Today’s show (changes daily), the Countdown or the Finale.</li>
+<li>Write a message in the sky and share it.</li>
+<li>Pick a theme such as Diwali Gold, Tricolour or Rainbow.</li>
+</ul>
+<h2 class="mt-8 text-2xl font-bold text-gold">Shell types</h2>
+<p class="mt-2">Peony, chrysanthemum, golden willow, kamuro, brocade, pistil, crossette, ring, palm, strobe, crackle, double blast, heart, star and spiral.</p>
+<h2 class="mt-8 text-2xl font-bold text-gold">Frequently asked questions</h2>
+<details class="border-b border-gold/30 py-2"><summary class="cursor-pointer font-bold">Is Virtual Happy Diwali free?</summary><p class="mt-1">Yes. No sign-up and nothing to download.</p></details>
+<details class="border-b border-gold/30 py-2"><summary class="cursor-pointer font-bold">Does it work on a phone?</summary><p class="mt-1">Yes. For the biggest show, turn your phone sideways.</p></details>
+<details class="border-b border-gold/30 py-2"><summary class="cursor-pointer font-bold">Why do I have to press Start?</summary><p class="mt-1">Browsers block sound until you interact with the page, so Start lets the booms play.</p></details>
+</main>
+<footer class="border-t border-gold/30 px-6 py-7 text-center text-muted">🪔 Happy Diwali! Built by <b class="text-lg text-gold">Engineer Pankaj Kumar</b></footer>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
