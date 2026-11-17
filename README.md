@@ -1,6 +1,6 @@
 # 🪔 Virtual Happy Diwali
 
-**Built by Engineer Pankaj Kumar**
+**Built by Er. Pankaj Kumar**
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-orange?style=for-the-badge&logo=vercel)](https://virtual-happy-diwali.vercel.app/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
