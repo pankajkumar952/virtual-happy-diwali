@@ -324,7 +324,7 @@ B.Tech – Computer Science Engineering
 
 - GitHub: https://github.com/pankajkumar952/
 - LinkedIn: https://www.linkedin.com/in/pankaj-kumar-0b82a8238/
-- Portfolio: https://pankaj952.github.io/Portfolio/
+- Portfolio: https://pankajkumar952.github.io/Portfolio/
 
 ## ❤️ Credits
 
