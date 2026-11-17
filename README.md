@@ -324,7 +324,7 @@ B.Tech – Computer Science Engineering
 
 - GitHub: https://github.com/pankajkumar952/
 - LinkedIn: https://www.linkedin.com/in/pankaj-kumar-0b82a8238/
-- Portfolio: https://pankaj95231.github.io/Portfolio/
+- Portfolio: https://pankaj952.github.io/Portfolio/
 
 ## ❤️ Credits
 
@@ -336,4 +336,4 @@ A small digital celebration created to spread happiness, positivity, and the spi
 
 ---
 
-© Engineer Pankaj Kumar. All Rights Reserved.
+© Er. Pankaj Kumar. All Rights Reserved.
