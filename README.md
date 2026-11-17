@@ -1,109 +1,339 @@
-# Virtual Happy Diwali
+# 🪔 Virtual Happy Diwali
 
 **Built by Engineer Pankaj Kumar**
 
-A free, browser-based Diwali fireworks and crackers simulator. Tap the sky, light virtual crackers, write a wish in the sky and share it with family and friends. Runs on phones, tablets and computers with no sign-up and no backend.
+[![Live Demo](https://img.shields.io/badge/Live-Demo-orange?style=for-the-badge&logo=vercel)](https://virtual-happy-diwali.vercel.app/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Vite](https://img.shields.io/badge/Vite-Powered-646CFF?style=for-the-badge&logo=vite)](https://vite.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
 
-## Features
+**Experience the magic of Diwali with Virtual Happy Diwali!**
 
-- **15 firework shell types:** peony, chrysanthemum, golden willow, kamuro, brocade, pistil, crossette, ring, palm, strobe, crackle, double blast, heart, star and spiral.
-- **Ground crackers:** anar (flowerpot), chakri (spinning wheel), ladi (string of crackers), atom bomb and phuljhadi (sparkler), plus fountain "Ground fx".
-- **Shows:** Grand show, Today's show (a different show every day), 10-second Countdown and Finale. Auto show can be paused.
-- **Write in sky:** type a wish and watch it form in fireworks.
-- **Share greeting:** uses the device share sheet, with a WhatsApp fallback.
-- **Layered Web Audio sound:** synthesized crack, boom, rumble and crackle with stereo positioning, a built-in limiter and smooth volume control. Sound mode: Auto, Loud, Soft or Mute.
-- **Themes:** Colourful mix, Diwali Gold, Rainbow, Tricolour, Royal Blue and Pink, Pastel.
-- **Performance engineering:** pooled particles (no per-frame allocation), cached colours and glow sprites, a particle cap, and automatic quality scaling when the frame rate drops.
-- **Extras:** City in front toggle, Launch speed, Save photo, Full screen, tap-to-launch.
+A free, browser-based Diwali fireworks and crackers simulator. Tap the sky, light virtual crackers, write a wish in the sky, and share festive greetings with family and friends.
 
-## Tech stack
+No sign-up, no backend, and no installation required. Just open the website and enjoy the celebration on your phone, tablet, or computer.
 
-Vanilla JavaScript (Canvas 2D + Web Audio API), Vite, Tailwind CSS.
+## 🌐 Live Demo
 
-## Project structure
+**Experience the celebration here:**
 
-```
+### [🎆 Virtual Happy Diwali – Open Live Website](https://virtual-happy-diwali.vercel.app/)
+
+## ✨ Features
+
+### 🎆 1. Fireworks Simulation
+- 15 different firework shell types:
+  - Peony
+  - Chrysanthemum
+  - Golden Willow
+  - Kamuro
+  - Brocade
+  - Pistil
+  - Crossette
+  - Ring
+  - Palm
+  - Strobe
+  - Crackle
+  - Double Blast
+  - Heart
+  - Star
+  - Spiral
+
+### 🧨 2. Virtual Ground Crackers
+- Anar (Flowerpot)
+- Chakri (Spinning Wheel)
+- Ladi (String of Crackers)
+- Atom Bomb
+- Phuljhadi (Sparkler)
+- Ground FX Fountain
+
+### 🎇 3. Special Fireworks Shows
+- Grand Show
+- Today's Show – A different show every day
+- 10-Second Countdown
+- Grand Finale
+- Automatic show mode with pause functionality
+
+### 💌 4. Write Your Wish in the Sky
+- Enter your personal Diwali greeting.
+- Watch your message appear through fireworks.
+- Create a memorable festive experience.
+
+### 📲 5. Share Diwali Greetings
+- Share greetings using your device's native share menu.
+- WhatsApp sharing fallback.
+- Send festive wishes to friends and family.
+
+### 🔊 6. Immersive Sound Effects
+Layered Web Audio API sound effects:
+- Crack
+- Boom
+- Rumble
+- Crackle
+- Stereo positioning
+- Built-in audio limiter
+- Smooth volume control
+
+Sound modes:
+- Auto
+- Loud
+- Soft
+- Mute
+
+### 🎨 7. Beautiful Themes
+Choose from six visual themes:
+- Colourful Mix
+- Diwali Gold
+- Rainbow
+- Tricolour
+- Royal Blue and Pink
+- Pastel
+
+### ⚡ 8. Performance Optimization
+- Pooled particles to reduce per-frame allocations.
+- Cached colours and glow sprites.
+- Particle count limits.
+- Automatic quality scaling when frame rates drop.
+- Optimized Canvas 2D rendering.
+
+### 🛠️ 9. Additional Controls
+- City in Front toggle
+- Adjustable Launch Speed
+- Save Photo
+- Full-Screen Mode
+- Tap-to-Launch Fireworks
+
+## 🧑‍💻 Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Application structure |
+| CSS3 | Styling and animations |
+| JavaScript | Fireworks engine and application logic |
+| Canvas 2D API | Fireworks and particle rendering |
+| Web Audio API | Synthesized sound effects |
+| Vite | Development server and build tool |
+| Tailwind CSS | Utility-first styling |
+| Vercel | Deployment and hosting |
+| Git & GitHub | Version control and source code hosting |
+
+## 📂 Project Structure
+
+```text
 virtual-happy-diwali/
-├── index.html            # page, SEO metadata, simulator markup
+│
+├── index.html
+│   └── Page structure, SEO metadata and simulator markup
+│
 ├── package.json
 ├── vite.config.js
 ├── tailwind.config.js
 ├── postcss.config.js
-├── public/               # favicon.svg, robots.txt
+│
+├── public/
+│   ├── favicon.svg
+│   └── robots.txt
+│
 └── src/
-    ├── main.js           # engine, audio, controls
-    └── style.css         # Tailwind layers + simulator styles
+    ├── main.js
+    │   └── Fireworks engine, audio and controls
+    │
+    └── style.css
+        └── Tailwind layers and simulator styles
 ```
 
-## Local setup
+## 🚀 Getting Started
 
-Requirements: [Node.js](https://nodejs.org) 18 or newer.
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+Install:
+
+- [Node.js 18 or newer](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/) (recommended)
+
+### 1. Clone the Repository
 
 ```bash
-# 1. Extract the ZIP and open the folder
+git clone https://github.com/YOUR_USERNAME/virtual-happy-diwali.git
+```
+
+### 2. Navigate to the Project
+
+```bash
 cd virtual-happy-diwali
+```
 
-# 2. Install dependencies
+### 3. Install Dependencies
+
+```bash
 npm install
+```
 
-# 3. Start the development server
+### 4. Start Development Server
+
+```bash
 npm run dev
 ```
 
-Open the address printed in the terminal (usually http://localhost:5173), press **Start the show** and turn your sound on.
+Open the local URL printed in your terminal, usually:
 
-Other commands:
-
-```bash
-npm run build     # production build into ./dist
-npm run preview   # serve the production build locally
+```text
+http://localhost:5173
 ```
 
-## Push to GitHub
+Click **Start the Show** and enjoy the fireworks!
 
-1. Create an empty repository on [github.com/new](https://github.com/new) named `virtual-happy-diwali` (do not add a README or .gitignore).
-2. In the project folder run:
+### 5. Production Build
+
+```bash
+npm run build
+```
+
+### 6. Preview Production Build
+
+```bash
+npm run preview
+```
+
+The production files will be generated inside the `dist/` directory.
+
+## 📤 Push Project to GitHub
+
+Create an empty repository on GitHub:
+
+[Create GitHub Repository](https://github.com/new)
+
+Repository name:
+
+```text
+virtual-happy-diwali
+```
+
+Run these commands inside your project folder:
 
 ```bash
 git init
 git add .
 git commit -m "Virtual Happy Diwali - first release"
 git branch -M main
-git remote add origin https://github.com/<your-username>/virtual-happy-diwali.git
+git remote add origin https://github.com/YOUR_USERNAME/virtual-happy-diwali.git
 git push -u origin main
 ```
 
-Replace `<your-username>` with your GitHub username.
+Replace `YOUR_USERNAME` with your GitHub username.
 
-## Deploy to Vercel
+## ☁️ Deploy on Vercel
 
-**Option A: from GitHub (recommended)**
+The project is deployed using Vercel.
 
-1. Sign in at [vercel.com](https://vercel.com) with your GitHub account.
-2. Click **Add New → Project** and import the `virtual-happy-diwali` repository.
-3. Vercel detects Vite automatically. Confirm: Framework Preset **Vite**, Build Command `npm run build`, Output Directory `dist`.
-4. Click **Deploy**. Every push to `main` redeploys automatically.
+**Live Website:**
 
-**Option B: Vercel CLI**
+https://virtual-happy-diwali.vercel.app/
+
+### Deploy Using GitHub
+
+1. Visit [Vercel](https://vercel.com/).
+2. Sign in using your GitHub account.
+3. Select **Add New → Project**.
+4. Import your `virtual-happy-diwali` repository.
+5. Configure the following settings:
+
+| Setting | Value |
+|---|---|
+| Framework Preset | Vite |
+| Build Command | `npm run build` |
+| Output Directory | `dist` |
+| Install Command | `npm install` |
+
+6. Click **Deploy**.
+
+Vercel can automatically redeploy the project whenever you push changes to your connected GitHub repository.
+
+### Deploy Using Vercel CLI
+
+Alternatively, use:
 
 ```bash
 npm install -g vercel
-vercel          # first deploy (preview), follow the prompts
-vercel --prod   # production deploy
+vercel
+vercel --prod
 ```
 
-**After deploying:** add your own domain under Project → Settings → Domains. Once you have the final URL, you can add a canonical link and sitemap in `index.html` and `public/` for better search ranking.
+## 🌍 Browser Compatibility
 
-## Browser support
+Supported browsers:
 
-Current versions of Chrome, Edge, Firefox and Safari (desktop and mobile). Browsers only allow sound after a tap, which is why the show starts with the **Start the show** button. The simulator contains flashing lights.
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Apple Safari
 
-## Troubleshooting
+Compatible with:
+- Desktop computers
+- Android smartphones
+- iPhones and iPads
+- Tablets
 
-- **No sound:** press Start, check the Sound setting is not Mute, raise Volume, and make sure the phone is not on silent mode.
-- **Slow on an old device:** the engine lowers particle counts automatically; closing other tabs also helps.
-- **`npm install` fails:** check `node -v` shows 18 or higher.
+**Note:** Browsers require user interaction before enabling audio playback. Click the Start the Show button to activate the experience.
 
-## Credits
+The simulator contains flashing lights.
 
-Built by Engineer Pankaj Kumar. © Engineer Pankaj Kumar. All rights reserved.
+## 🔧 Troubleshooting
+
+**Problem: No Sound**
+
+- Click Start the Show.
+- Check that Sound Mode is not set to Mute.
+- Increase the volume.
+- Check your device's silent mode.
+
+**Problem: Slow Performance**
+
+- Close unnecessary browser tabs.
+- Reduce the number of active effects if controls are available.
+- The simulator automatically adjusts particle quality when performance drops.
+
+**Problem: npm install Fails**
+
+Check your Node.js version:
+
+```bash
+node -v
+```
+
+Make sure Node.js 18 or newer is installed.
+
+## 🎯 Project Goals
+
+The main goals of Virtual Happy Diwali are:
+
+- Promote safe and eco-friendly virtual celebrations.
+- Provide an interactive festive experience.
+- Make Diwali celebrations accessible across devices.
+- Demonstrate browser-based graphics and audio technologies.
+- Combine JavaScript, Canvas 2D and Web Audio API in an interactive project.
+
+## 👨‍💻 Developer
+
+**Engineer Pankaj Kumar**
+
+B.Tech – Computer Science Engineering
+
+- GitHub: https://github.com/pankajkumar952/
+- LinkedIn: https://www.linkedin.com/in/pankaj-kumar-0b82a8238/
+- Portfolio: https://pankaj95231.github.io/Portfolio/
+
+## ❤️ Credits
+
+Designed and developed with ❤️ by **Engineer Pankaj Kumar**.
+
+A small digital celebration created to spread happiness, positivity, and the spirit of Diwali.
+
+**Wishing everyone a very Happy and Prosperous Diwali! 🪔🎆**
+
+---
+
+© Engineer Pankaj Kumar. All Rights Reserved.
